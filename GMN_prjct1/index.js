@@ -27,7 +27,7 @@ if(!guess){
     if(score > 1 ){
      score--;
      document.querySelector('.remark').textContent = 
-     guess > sNumber ? "⬆️ high number":" ⬇️ low number"   ;
+     guess > sNumber ? " ⬇️try lower":"  ⬆️  try higher"   ;
      document.querySelector('.scoreNum').textContent =  score;
     }else{
      document.querySelector('.remark').textContent= " 🤯you lost";
