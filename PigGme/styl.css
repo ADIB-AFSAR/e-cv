@@ -7,9 +7,9 @@ body{
 .container{
     display: flex;
      justify-content: center;
-    /* position: fixed; 
-     top: 30%;
-    left: 30%;*/
+    /* position: fixed; */
+     /* top: 30%; */
+    /* left: 30%;*/ 
     /* width: 55rem; */
     height: 65vh;
 }
@@ -45,14 +45,14 @@ body{
     opacity: 1;
     display: flex;
     position: absolute;
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 40px;
     font-variant: small-caps;
     border: 1px solid;
     border-color:linear-gradient( 45deg  ,#949090 40% , #615a5a 50%);
     border-radius: 15px; 
     width: 8rem;
-    padding-left: 15px;
+    padding-left: 12px;
     padding-top: 1px;
     height: 2rem;
     margin-left: -55px;
@@ -75,7 +75,7 @@ body{
     /* background: linear-gradient( 45deg   ,#949090 40% , #615a5a 60%); */
     background: #c276a5ee;
     margin-left: -50px;
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
     opacity: .9;
     margin-top: 15rem;
     border: 1px solid;
@@ -101,10 +101,10 @@ body{
     font-weight: bolder;
     opacity: .9;
     width: 8rem;
-    height: 27px;
+    height: 2rem;
     display: flex;
     position: absolute;
-    padding-bottom: 4px;
+    padding-bottom: 2px;
     padding-left: 28px;
     cursor: pointer;
 }
@@ -128,6 +128,7 @@ body{
     display: flex;
     position: absolute;
     font-size: 20px;
+    font-weight:500;
     background-color: rgb(175, 67, 112);
     margin-top: 16rem;
     height: 7rem;
@@ -159,3 +160,25 @@ body{
  h1{
     margin-right:15rem;
  }
+
+ @media ( min-width:219px) and (max-width: 481px) {
+  .container{
+    width: 23rem;
+  }
+  h1{
+    width: 1rem;
+  }
+  .new{
+    margin-top:1rem
+  }
+  .rtd{
+    margin-top:14rem;
+  }
+ }
+ .current{
+    height: 5rem;
+    width: 9rem;
+ }
+ .hold{
+    margin-top: 23rem;
+  }
