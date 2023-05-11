@@ -7,11 +7,11 @@ body{
 .container{
     display: flex;
      justify-content: center;
-    position: fixed;
-    top: 30%;
-    left: 20%;
-    width: 52rem;
-    height: 452px;
+    /* position: fixed; 
+     top: 30%;
+    left: 30%;*/
+    /* width: 55rem; */
+    height: 65vh;
 }
 .subprt1 {
     /* background: #949090; */
@@ -41,10 +41,11 @@ body{
 .new{
     /* background: linear-gradient( 45deg  ,#949090 40% , #615a5a 50%); */
     background: #c276a5ee;
+    font-weight: bolder;
     opacity: 1;
     display: flex;
-    position: fixed;
-    font-size: 15px;
+    position: absolute;
+    font-size: 20px;
     margin-top: 40px;
     font-variant: small-caps;
     border: 1px solid;
@@ -52,7 +53,7 @@ body{
     border-radius: 15px; 
     width: 8rem;
     padding-left: 15px;
-    padding-top: 4px;
+    padding-top: 1px;
     height: 2rem;
     margin-left: -55px;
     cursor: pointer;
@@ -63,7 +64,7 @@ body{
     margin-top: 7rem;
     width: 90px;
     margin-left: -3rem;
-    position: fixed;
+    position: absolute;
     /* background:  linear-gradient( to right, #949090 40% , #615a5a 60%); */
     /* background: #9b93934f; */
 }
@@ -74,15 +75,17 @@ body{
     /* background: linear-gradient( 45deg   ,#949090 40% , #615a5a 60%); */
     background: #c276a5ee;
     margin-left: -50px;
+    padding-bottom: 3rem;
     opacity: .9;
-    margin-top: 18rem;
+    margin-top: 15rem;
     border: 1px solid;
     border-radius: 11px;
     font-size: 15px;
+    font-weight: bolder;
     width: 6rem;
     height: 42px;
     display: flex;
-    position: fixed;
+    position: absolute;
     padding-top: 2px;
     cursor: pointer;
 
@@ -91,27 +94,28 @@ body{
     /* background: linear-gradient( 45deg  ,#949090 40% , #615a5a 50%); */
     background: #c276a5ee;
     margin-left: -65px;
-    margin-top: 23rem;
+    margin-top: 22rem;
     border: 1px solid;
     border-radius: 11px;
     font-size: 17px;
+    font-weight: bolder;
     opacity: .9;
     width: 8rem;
     height: 27px;
     display: flex;
-    position: fixed;
+    position: absolute;
     padding-bottom: 4px;
     padding-left: 28px;
     cursor: pointer;
 }
 .score{
    /* background:linear-gradient(to  left , #753682 0% ,#bf2e34 100%); */
-    font-weight: 550;
+   font-weight: 550;
    display: flex;
-   position: fixed;
-   margin-top: 6rem;
+   position: absolute;
+   margin-top: 5rem;
    font-size: 3rem;
-   margin-right:1rem;
+   margin-right: 1rem;
 }
  
 .player{
@@ -122,11 +126,11 @@ body{
 .current{
     font-weight: 50;
     display: flex;
-    position: fixed;
+    position: absolute;
     font-size: 20px;
     background-color: rgb(175, 67, 112);
     margin-top: 16rem;
-    height: 5rem;
+    height: 7rem;
     width: 9rem;
     justify-content: center;
     padding-top: 1rem;
@@ -135,7 +139,7 @@ body{
  
 .crntNum{
     display: flex;
-    position: fixed;
+    position: absolute;
     margin-top:25px;
     font-size: 2rem;
      
@@ -151,4 +155,7 @@ body{
 }
 .know{
   color: rgb(168, 160, 161);
+ }
+ h1{
+    margin-right:15rem;
  }
